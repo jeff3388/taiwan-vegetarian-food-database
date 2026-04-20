@@ -1,0 +1,158 @@
+[
+  {
+    "nutrient": "vitamin_b12",
+    "nutrient_zh": "維生素 B12（鈷胺素）",
+    "risk_level": "very_high",
+    "at_risk_groups": ["vegan", "lacto-vegetarian"],
+    "taiwan_dri": "2.4μg/天（成人）；哺乳期 2.8μg/天",
+    "deficiency_symptoms_zh": [
+      "巨球性貧血（疲勞、臉色蒼白）",
+      "周邊神經病變（手腳刺痛、麻木）",
+      "認知功能下降（記憶力衰退）",
+      "同半胱胺酸升高（心血管風險）",
+      "嬰兒神經發育障礙（哺乳期純素媽媽）"
+    ],
+    "plant_sources_zh": [
+      "海苔含 pseudo-B12（類似物，對人體無活性，無法作為 B12 來源）",
+      "天貝、味噌等發酵食品含量微量且不穩定",
+      "B12 強化食品：植物奶、早餐穀片（需確認標籤）"
+    ],
+    "supplement_note_zh": "純素者必須補充 B12 保健食品。建議每週 2–3 次補充 1000μg（氰鈷胺素 cyanocobalamin），或每日 250μg。植物性來源不可靠，無任何食物搭配方案可替代補充品。台灣藥局和有機食品店均有售",
+    "evidence_grade": "A",
+    "source": "Watanabe F et al. (2013) J Clin Biochem Nutr. PMID: 24426190；衛福部 DRIs 第八版（2020）",
+    "_meta": { "last_updated": "2026-04-16" }
+  },
+  {
+    "nutrient": "iron",
+    "nutrient_zh": "鐵",
+    "risk_level": "high",
+    "at_risk_groups": ["vegan", "vegetarian", "premenopausal_females"],
+    "taiwan_dri": "男性 10mg/天；女性（月經期）15mg/天；純素者 × 1.8 倍（因非血鐵吸收率低）",
+    "deficiency_symptoms_zh": [
+      "缺鐵性貧血（頭暈、疲勞、心悸）",
+      "注意力和認知功能下降",
+      "免疫功能降低",
+      "體溫調節能力減弱",
+      "運動耐受力下降"
+    ],
+    "plant_sources_zh": [
+      "南瓜籽：8.1mg/100g（最佳植物鐵來源）",
+      "黑芝麻：7.8mg/100g",
+      "藜麥（乾）：4.6mg/100g",
+      "毛豆：2.3mg/100g",
+      "天貝：2.7mg/100g",
+      "菠菜：2.7mg/100g（但草酸高，吸收率低）",
+      "紅豆：5.9mg/100g（乾重）"
+    ],
+    "absorption_note_zh": "非血鐵（植物鐵）吸收率約 1–15%，血鐵（動物鐵）15–35%。維生素 C 可提升非血鐵吸收 3–6 倍。咖啡、茶（單寧酸）和鈣補充品會抑制非血鐵吸收，建議餐後 1 小時再飲用",
+    "supplement_note_zh": "飲食調整（優先南瓜籽、天貝搭配維生素C食物）通常可滿足需求。若血液檢查顯示鐵蛋白偏低（< 30μg/L），需在醫師指導下補充鐵劑",
+    "evidence_grade": "A",
+    "source": "Hurrell R & Egli I (2010) Am J Clin Nutr. PMID: 20200263；衛福部 DRIs 第八版（2020）",
+    "_meta": { "last_updated": "2026-04-16" }
+  },
+  {
+    "nutrient": "zinc",
+    "nutrient_zh": "鋅",
+    "risk_level": "medium",
+    "at_risk_groups": ["vegan", "vegetarian"],
+    "taiwan_dri": "男性 15mg/天；女性 12mg/天；純素者建議 × 1.5 倍（因植酸干擾）",
+    "deficiency_symptoms_zh": [
+      "免疫功能下降（易感冒）",
+      "傷口癒合變慢",
+      "味覺、嗅覺異常",
+      "掉髮",
+      "生長遲緩（兒童）",
+      "性腺功能低下（男性）"
+    ],
+    "plant_sources_zh": [
+      "南瓜籽：7.6mg/100g（最佳植物鋅來源）",
+      "藜麥（乾）：3.1mg/100g",
+      "黑芝麻：4.0mg/100g",
+      "腰果（生）：5.6mg/100g",
+      "天貝：1.1mg/100g（發酵降低植酸，吸收率提升）",
+      "燕麥（乾）：3.6mg/100g"
+    ],
+    "absorption_note_zh": "植酸（phytic acid）是植物食物中阻礙鋅吸收的主要因素。浸泡豆類（8小時）和穀物、選發酵食品（天貝、味噌）、烘烤種子可降低植酸含量。有機酸（檸檬汁、醋）也可提高鋅吸收率",
+    "supplement_note_zh": "飲食多樣化（南瓜籽每日 30g + 天貝 + 燕麥）通常可達建議量。症狀明顯或血液鋅值低（< 70μg/dL）時，可補充葡萄糖酸鋅（zinc gluconate）每日 15–25mg",
+    "evidence_grade": "B",
+    "source": "Saunders AV et al. (2013) Med J Aust. PMID: 23448151；衛福部 DRIs 第八版（2020）",
+    "_meta": { "last_updated": "2026-04-16" }
+  },
+  {
+    "nutrient": "omega3_epa_dha",
+    "nutrient_zh": "Omega-3 長鏈脂肪酸（EPA + DHA）",
+    "risk_level": "high",
+    "at_risk_groups": ["vegan", "vegetarian"],
+    "taiwan_dri": "ALA 每日 1.6g（男）/ 1.1g（女）；EPA+DHA 建議 250mg/天（無官方純素 DRI）",
+    "deficiency_symptoms_zh": [
+      "心血管風險增加",
+      "認知功能和記憶力下降",
+      "眼睛乾燥（DHA 是視網膜主要成分）",
+      "情緒問題（DHA 是腦部神經膜重要成分）",
+      "嬰兒神經發育受影響（孕期/哺乳期重要）"
+    ],
+    "plant_sources_zh": [
+      "亞麻籽（磨碎）：ALA 22.8g/100g（最佳 ALA 來源）",
+      "奇亞籽：ALA 17.8g/100g",
+      "核桃：ALA 9.1g/100g",
+      "大麻籽：ALA 8.7g/100g",
+      "海藻油（直接含 DHA）：直接補充 EPA/DHA 的純素方案"
+    ],
+    "absorption_note_zh": "植物性 ALA 在體內轉換為 EPA 的效率僅 8–20%，轉換為 DHA 更低（0.5–4%）。這意味 ALA 食物不能完全替代直接攝取 EPA/DHA。建議純素者特別是孕婦補充海藻油（algae-based omega-3）",
+    "supplement_note_zh": "純素 Omega-3 補充品建議選擇海藻油（algae oil），直接含 EPA+DHA，不依賴 ALA 轉換。每日 200–300mg DHA 是基本建議；孕期哺乳期提高至 600mg DHA。台灣有機食品店和網路商店有售",
+    "evidence_grade": "A",
+    "source": "Burdge GC & Calder PC (2005) Reprod Nutr Dev. PMID: 16188209；Greupner T et al. (2018) J Nutr Biochem. PMID: 30086468",
+    "_meta": { "last_updated": "2026-04-16" }
+  },
+  {
+    "nutrient": "calcium",
+    "nutrient_zh": "鈣",
+    "risk_level": "medium",
+    "at_risk_groups": ["vegan"],
+    "taiwan_dri": "成人 1000mg/天；51歲以上 1200mg/天；青少年 1200mg/天",
+    "deficiency_symptoms_zh": [
+      "骨質疏鬆（長期缺乏，無立即症狀）",
+      "肌肉痙攣和抽搐",
+      "牙齒脆弱",
+      "骨折風險增加（尤其停經後女性）"
+    ],
+    "plant_sources_zh": [
+      "黑芝麻：975mg/100g（鈣含量最高，但每次食量小）",
+      "板豆腐（石膏豆腐）：140mg/100g（每塊豆腐可提供約 420mg）",
+      "青江菜（燙熟）：105mg/100g，吸收率 50%（優於菠菜）",
+      "鈣強化豆漿：120mg/100ml（選有標示者）",
+      "納豆：240mg/100g",
+      "杏仁：269mg/100g（但每把 30g 僅 81mg）",
+      "黑木耳：34mg/100g"
+    ],
+    "absorption_note_zh": "植物鈣吸收率差異大：青江菜等低草酸十字花科蔬菜吸收率 50%，豆腐（石膏凝固）32%，強化豆漿 30–32%。高草酸蔬菜（菠菜、莧菜）鈣吸收率僅 5%。維生素 D 有助於鈣吸收，需一同注意",
+    "supplement_note_zh": "純素者若每日三份高鈣植物食物（豆腐 + 青江菜 + 強化豆漿）通常可達 700–900mg。不足時補充碳酸鈣（飯後吸收最佳）或檸檬酸鈣（可空腹服用），每次不超過 500mg",
+    "evidence_grade": "A",
+    "source": "Weaver CM et al. (1999) Am J Clin Nutr. PMID: 10088957；衛福部 DRIs 第八版（2020）",
+    "_meta": { "last_updated": "2026-04-16" }
+  },
+  {
+    "nutrient": "vitamin_d",
+    "nutrient_zh": "維生素 D",
+    "risk_level": "medium",
+    "at_risk_groups": ["vegan", "vegetarian", "indoor_lifestyle", "older_adult"],
+    "taiwan_dri": "成人 10μg（400IU）/天；51歲以上 15μg（600IU）/天",
+    "deficiency_symptoms_zh": [
+      "骨質軟化和骨質疏鬆",
+      "肌肉無力",
+      "免疫功能下降",
+      "情緒低落（與 D 受體廣泛分布腦部有關）",
+      "佝僂病（兒童嚴重缺乏）"
+    ],
+    "plant_sources_zh": [
+      "日曬乾香菇（UV 乾燥）：D2 約 10–100μg/100g（差異極大，依乾燥方式）",
+      "日曬乾木耳：D2 少量",
+      "強化植物奶（豆漿/燕麥奶）：D2 或 D3（需確認標籤）"
+    ],
+    "synthesis_note_zh": "台灣緯度（22–25°N）理論上全年均可經由日曬合成 D3。但長袖、防曬、室內辦公族群實際合成量不足。建議每天 11:00–15:00 不防曬曝曬手臂和臉部 10–15 分鐘（深色皮膚需更長）",
+    "supplement_note_zh": "植物食物 D2 含量不穩定，建議純素者補充維生素 D3（膽鈣化醇，通常來源於羊毛脂 lanolin，嚴格純素者選地衣來源 D3）或 D2。每日 1000–2000IU，血清 25(OH)D 目標值 50–80nmol/L。台灣健保每年可做一次維生素 D 血液檢查",
+    "evidence_grade": "A",
+    "source": "Holick MF (2007) N Engl J Med. PMID: 17634462；衛福部 DRIs 第八版（2020）",
+    "_meta": { "last_updated": "2026-04-16" }
+  }
+]

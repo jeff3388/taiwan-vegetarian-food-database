@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Taiwan Vegetarian Food Nutrition Schema",
+  "definitions": {
+    "PlantProteinFood": {
+      "type": "object",
+      "required": ["id", "name_zh", "protein_g_per_100g", "source"],
+      "properties": {
+        "id": { "type": "string" },
+        "name_zh": { "type": "string" },
+        "name_en": { "type": "string" },
+        "category": { "type": "string", "enum": ["legume", "soy-product", "grain", "nut-seed", "seaweed", "processed-veg"] },
+        "suitable_for": { "type": "array", "items": { "type": "string", "enum": ["vegetarian", "vegan", "lacto-vegetarian", "ovo-vegetarian"] } },
+        "protein_g_per_100g": { "type": "number" },
+        "complete_protein": { "type": "boolean", "description": "是否為完全蛋白質（含所有必需胺基酸）" },
+        "limiting_amino_acid": { "type": "string", "description": "限制性胺基酸（若非完全蛋白質）" },
+        "iron_mg_per_100g": { "type": "number" },
+        "calcium_mg_per_100g": { "type": "number" },
+        "zinc_mg_per_100g": { "type": "number" },
+        "taiwan_note_zh": { "type": "string" },
+        "source": { "type": "string" }
+      }
+    },
+    "NutrientGap": {
+      "type": "object",
+      "required": ["nutrient", "risk_level", "taiwan_dri", "source"],
+      "properties": {
+        "nutrient": { "type": "string" },
+        "nutrient_zh": { "type": "string" },
+        "risk_level": { "type": "string", "enum": ["very_high", "high", "medium", "low"] },
+        "at_risk_groups": { "type": "array", "items": { "type": "string" } },
+        "taiwan_dri": { "type": "string" },
+        "deficiency_symptoms_zh": { "type": "array", "items": { "type": "string" } },
+        "plant_sources_zh": { "type": "array", "items": { "type": "string" } },
+        "supplement_note_zh": { "type": "string" },
+        "evidence_grade": { "type": "string" },
+        "source": { "type": "string" }
+      }
+    }
+  }
+}
